@@ -1,0 +1,86 @@
+.eye-catching {
+    padding: 20px;
+    text-align: center;
+    margin: auto 10%;
+}
+
+
+
+.animation-text{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 20px;
+}
+
+.animation-text img{
+    width: 100%;
+    max-width: 400px;
+}
+
+
+
+.eye-catching h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 50%;
+    color: gold;
+}
+
+.eye-catching h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 6vw;
+    color:thistle;
+}
+
+.eye-catching{
+    font-size: 8vw;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 20px;
+}
+
+.animation-text p{
+    font-size: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.eye-catching .coder{
+    color: red;
+    font-size: 40px; /* Increase the font size */
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .animation-text{
+        display: block;
+        font-size: auto; 
+    }
+
+    .animation-text p{
+        font-size: 120%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+    }
+
+    .start-text h3{
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+
+
+

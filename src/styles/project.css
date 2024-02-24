@@ -1,0 +1,79 @@
+.projects-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+
+  }
+  
+  /* Project grid styles */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 3fr)); /* Create a responsive grid with 3 projects per row */
+    gap: 20px;
+  }
+  
+  /* Project styles */
+  .project {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .project h3 {
+    font-size: 20px;
+    text-align: center;
+    color: goldenrod;
+  }
+  
+  .project video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .project p {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Project buttons styles */
+  .project-buttons {
+    margin-top: 10px;
+  }
+  
+  .project-buttons a {
+    text-decoration: none;
+  }
+  
+  .project-buttons button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .project-header{
+    text-align: center;
+  }
+
+  .project-header h2{
+    color: red;
+    font-size: 50px;
+  }
+
+ 
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .project-grid {
+      grid-template-columns: 1fr; /* Display one project per row on smaller screens */
+    }
+    .project{
+      margin: auto 14px;
+    }
+  }
+  
