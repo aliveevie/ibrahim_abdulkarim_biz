@@ -4,7 +4,9 @@
     margin: auto 10%;
 }
 
-
+button{
+    background: linear-gradient(to right, black, gold, #ff4500);
+}
 
 .animation-text{
     display: flex;
@@ -39,7 +41,9 @@
 
 .buttons{
     display: flex;
+    justify-content: space-between;
     margin-top: 20px;
+    background: linear-gradient(to right, black, gold, #ff4500);
 }
 
 .animation-text p{
