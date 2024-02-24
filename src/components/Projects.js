@@ -20,6 +20,90 @@ export function Projects() {
         className="project-grid"
         
       >
+
+        {/* Project 1 */}
+        <div className="project"
+          data-aos="fade-right"
+        >
+          <h3>Wayazone Ecommerce</h3>
+          <p>
+            This is phone selling store, you can explore different types of phones here
+          </p>
+          <video src="/wayazone.webm" alt="School" 
+          controls
+          />
+          <div className="project-buttons">
+            <a href="https://www.wayazone.com/">
+              <button>Live URL</button>
+            </a>
+            <a href="#">
+              <button>Source Code</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div className="project"
+          data-aos="fade-right"
+        >
+          <h3>School Grading System</h3>
+          <p>
+            This is a simpe school grading system that allows teacher to easily grade and assess their students
+          </p>
+          <video src="/school.webm" alt="" 
+          controls
+          />
+          <div className="project-buttons">
+            <a href="">
+              <button>Live URL</button>
+            </a>
+            <a href="#">
+              <button>Source Code</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div className="project"
+          data-aos="fade-right"
+        >
+          <h3>MedEase</h3>
+          <p>
+            This is simple medical adhrence app, that allows patient to easily track their medication adhrence
+          </p>
+          <video src="/medease.webm" alt="medease" 
+          controls
+          />
+          <div className="project-buttons">
+            <a href="">
+              <button>Live URL</button>
+            </a>
+            <a href="#">
+              <button>Source Code</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="project"
+          data-aos="fade-right"
+        >
+          <h3>Near Script</h3>
+          <p>
+            This is simple smart contract builder for developers to build on the Near ecosystem
+          </p>
+          <video src="/.webm" alt="" 
+          controls
+          />
+          <div className="project-buttons">
+            <a href="">
+              <button>Live URL</button>
+            </a>
+            <a href="#">
+              <button>Source Code</button>
+            </a>
+          </div>
+        </div>
+
         {/* Project 1 */}
         <div className="project"
           data-aos="fade-right"
@@ -188,26 +272,7 @@ export function Projects() {
           </div>
         </div>
 
-        <div className="project" 
-        data-aos="fade-down"
-        >
-          <h3>Stop Watch</h3>
-          <p>
-           This is a basic stopwatch
-          </p>
-          <video src="stopwatch.webm" alt="Landing Page video" 
-          controls
-          />
-          
-          <div className="project-buttons">
-            <a href="https://stop-watch-pi-sage.vercel.app/">
-              <button>Live URL</button>
-            </a>
-            <a href="https://github.com/aliveevie/StopWatch">
-              <button>Source Code</button>
-            </a>
-          </div>
-        </div>
+       
         
 
       </div>
