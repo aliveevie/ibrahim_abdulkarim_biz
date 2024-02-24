@@ -1,0 +1,88 @@
+.eye {
+    padding: 20px;
+    text-align: center;
+    margin: auto 10%;
+    background-color: gold;
+    margin-top: 100px;
+}
+
+
+
+.text{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+.text img{
+    width: 100%;
+    max-width: 400px;
+}
+
+
+
+.eye h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 50%;
+    color: gold;
+}
+
+.eye h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 6vw;
+    color:thistle;
+}
+
+.eye{
+    font-size: 8vw;
+}
+
+.buttons-eye{
+    display: flex;
+    margin-top: 20px;
+}
+
+.text p{
+    font-size: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.eye .coder-eye{
+    color: red;
+    font-size: 40px; /* Increase the font size */
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .text{
+        display: block;
+        font-size: auto; 
+    }
+
+    .text p{
+        font-size: 120%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+    }
+
+    .start-text-eye h3{
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+
+
+
