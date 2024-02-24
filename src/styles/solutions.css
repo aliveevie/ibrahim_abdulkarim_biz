@@ -3,7 +3,6 @@
     text-align: center;
     margin: auto 10%;
     background: linear-gradient(to right, black, gold, #ff4500);
-
     margin-top: 100px;
 }
 
@@ -63,6 +62,37 @@
     align-items: center;
     justify-content: center;
 }
+
+.text img {
+    animation: rotateAndColorBlink 30s linear infinite; /* Adjust duration as needed */
+  }
+  
+  @keyframes rotateAndColorBlink {
+    0% {
+      transform: rotate(0deg); /* Initial rotation */
+      filter: hue-rotate(0deg); /* Red */
+    }
+    25% {
+      transform: rotate(90deg); /* Rotate 90 degrees */
+      filter: hue-rotate(120deg); /* Green */
+    }
+    50% {
+      transform: rotate(180deg); /* Rotate 180 degrees */
+      filter: hue-rotate(240deg); /* Blue */
+    }
+    75% {
+      transform: rotate(270deg); /* Rotate 270 degrees */
+      filter: hue-rotate(60deg); /* Gold Yellow */
+    }
+    100% {
+      transform: rotate(360deg); /* Rotate 360 degrees */
+      filter: hue-rotate(0deg); /* Back to Red */
+    }
+  }
+  
+
+  
+  
 
 @media screen and (max-width: 800px) {
     .text{

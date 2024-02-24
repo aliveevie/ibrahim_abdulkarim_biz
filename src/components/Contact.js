@@ -13,8 +13,10 @@ export function Contact() {
         <a href="https://github.com/aliveevie/"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/ibrahim193/"><i class="fab fa-linkedin"></i></a>
         <a href="https://wa.me/2348138300357"><i class="fab fa-whatsapp"></i></a>
-        <a href="mailto:ibrahim@ibadulkarim.co"><i class="far fa-envelope"></i></a>
+        <a href="mailto:ibrahimabdulkarim193@gmail.com"><i class="far fa-envelope"></i></a>
         <a href="https://twitter.com/iabdulkarim472"><i class="fab fa-twitter"></i></a>
+        <a href="https://t.me/ibrahim_abdulkarim193"><i className="fab fa-telegram"></i></a>
+
     </div>
 
 
