@@ -36,7 +36,7 @@ export function Projects() {
             <a href="https://www.wayazone.com/">
               <button>Live URL</button>
             </a>
-            <a href="#">
+            <a href="https://www.wayazone.com#">
               <button>Source Code</button>
             </a>
           </div>
@@ -54,10 +54,10 @@ export function Projects() {
           controls
           />
           <div className="project-buttons">
-            <a href="">
+            <a href="https://school-grading.onrender.com/">
               <button>Live URL</button>
             </a>
-            <a href="#">
+            <a href="https://github.com/aliveevie/smart-T">
               <button>Source Code</button>
             </a>
           </div>
@@ -75,10 +75,10 @@ export function Projects() {
           controls
           />
           <div className="project-buttons">
-            <a href="">
+            <a href="https://medical-adhrence.onrender.com/">
               <button>Live URL</button>
             </a>
-            <a href="#">
+            <a href="https://github.com/aliveevie/medication_adherence">
               <button>Source Code</button>
             </a>
           </div>
@@ -91,14 +91,14 @@ export function Projects() {
           <p>
             This is simple smart contract builder for developers to build on the Near ecosystem
           </p>
-          <video src="/.webm" alt="" 
+          <video src="/NearScript.webm" alt="Near Script" 
           controls
           />
           <div className="project-buttons">
-            <a href="">
+            <a href="https://near-editor-app.onrender.com">
               <button>Live URL</button>
             </a>
-            <a href="#">
+            <a href="https://github.com/aliveevie/near-editor-app">
               <button>Source Code</button>
             </a>
           </div>
